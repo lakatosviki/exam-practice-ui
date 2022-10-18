@@ -3,7 +3,7 @@ console.log('haha')
 const Card = ({ title, sub, text }, index) => {
     return `
         <div class="card">
-            <div class="index">${index}</div>
+            <div class="index">${index + 1}</div>
             <h2 class="title">${title}</h2>
             <h4 class="sub">${sub}</h4>
             <p class="text">${text}</p>

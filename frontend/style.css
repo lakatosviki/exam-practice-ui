@@ -58,6 +58,7 @@ body {
   border-radius: 50%;
   background-color: #ffeedf;
   border: 1px solid #145434;
+  color: #145434;
   display: flex;
   justify-content: center;
   align-items: center;
