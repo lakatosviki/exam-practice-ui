@@ -1,14 +1,13 @@
 console.log('haha')
 
-const Card = () => {
+const Card = ({ title, sub, text }, index) => {
     return `
-        <div>
-            <div>${index}</div>
-            <h2>${title}</h2>
-            <div>line</div>
-            <h4>${sub}</h4>
-            <p>${text}</p>
-            <button>details</button>
+        <div class="card">
+            <div class="index">${index}</div>
+            <h2 class="title">${title}</h2>
+            <h4 class="sub">${sub}</h4>
+            <p class="text">${text}</p>
+            <button class="details">details</button>
         </div>
     `
 }
