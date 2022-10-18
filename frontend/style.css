@@ -21,6 +21,14 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  color: #145434;
+  font-size: 36px;
+  overflow: hidden;
+}
+.nav .material-icons {
+  font-size: 36px;
+  color: #145434;
+  margin: 30px;
 }
 
 .card-container {
@@ -82,7 +90,14 @@ body {
   width: 200px;
   height: 50px;
   color: #145434;
-  border: 1px solid #145434;
+  border: 2px solid #145434;
+}
+.card-container .card button span {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 36px;
 }
 .card-container .card button:hover {
   border-color: #ffeedf;
